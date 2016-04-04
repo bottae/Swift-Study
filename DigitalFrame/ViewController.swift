@@ -34,7 +34,8 @@ class ViewController: UIViewController {
                           UIImage(named: "15.jpg")!]
         
         imgView.animationImages = cuteImages
-        
+        imgView.animationDuration = 15.0
+        imgView.startAnimating()
         
     }
 
